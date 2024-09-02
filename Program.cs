@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using _06Publicaciones.Views.Ciudades;
 
 namespace _06Publicaciones
 {
@@ -16,7 +17,7 @@ namespace _06Publicaciones
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frm_Lista_Ciudades());
         }
     }
 }
